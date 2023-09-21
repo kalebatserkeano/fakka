@@ -73,33 +73,35 @@ body {
 
 <div class="navbar">
   <div class="dropdown">
-    <button class="dropbtn">Dropdown 
+    <button class="dropbtn">Transfers 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="#">Duurste</a>
+      <a href="#">Meest recente</a>
+      <a href="#">Contractverlengingen</a>
   </div>
   </div>
    <div class="dropdown">
-    <button class="dropbtn">Dropdown 
+    <button class="dropbtn">Competities
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="#">Eredivisie</a>
+      <a href="#">Keukenkampioen Divisie</a>
+      <a href="#">Premier League</a>
     </button>
      </div>
+     </div>
+
    <div class="dropdown">
-    <button class="dropbtn">Dropdown 
+    <button class="dropbtn">Topscoorders+assisters 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="#">Eredivisie</a>
+      <a href="#">Keukenkampioen Divisie</a>
+      <a href="#">Premier League</a>
     </button>
     </div>
   </div> 
