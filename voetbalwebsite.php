@@ -39,13 +39,13 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: green;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -106,6 +106,25 @@ body {
     </div>
   </div> 
 </div>
+<style>
+body {
+ background-image: url("achtergrond.png");
+ background-color: #cccccc;
+background-size: cover;
+</style>
+</body>
+<body>
 
+
+
+<a class="navbar-brand" href="/">      <div >            <img src="logovoetbal.png"  class="logo-image" >      </div></a>
+<style>
+.logo-image{
+    width: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: -10px;
+}
+</style>
 </body>
 </html>
