@@ -123,7 +123,7 @@ background-size: cover;
     width: 100px;
     border-radius: 50px;
     overflow: hidden;
-    margin-top: -10px;
+    margin-top: -6px;
 }
 </style>
 </body>

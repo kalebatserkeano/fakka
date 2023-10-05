@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -104,6 +103,7 @@ body {
       <a href="#">Keukenkampioen Divisie</a>
       <a href="#">Premier League</a>
     </button>
+   
     </div>
   </div> 
 </div>
@@ -117,93 +117,16 @@ background-size: cover;
 <body>
 
 
-<a class="navbar-brand" href="/">      <div >            <img src="logovoetbal.png"  class="logo-image" >      </div></a>
+
+<a class="navbar-brand" href="/">      <div class="logo-image">            <img src="logovoetbal.png"  class="logo-image" >      </div></a>
 <style>
 .logo-image{
     width: 100px;
-    border-radius: 50px;
+    height: 100px;
+    border-radius: 80%;
     overflow: hidden;
-    margin-top: -6px;
-}
-table tr td{border: solid white 2px;
+    margin-top: -900px;
 }
 </style>
-<table>
-  <tr>
-    <th>Spelernaam</th>
-    <th>Oude Club</th>
-    <th>Nieuwe club</th>
-    <th>Transfersom</th>
-  </tr>
-  <tr>
-    <td>Declan Rice</td>
-    <td>West Ham United</td>
-    <td>Arsenal</td>
-    <td>116,6 m</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Moises Caicedo</td>
-    <td>Brighton and Hove Albian</td>
-    <td>Chelsea</td>
-    <td>116 m</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Jude Bellingham</td>
-    <td>Borussia Dortmund</td>
-    <td>Real Madrid</td>
-    <td>103 m</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Harry Kane</td>
-    <td>Tottenham Hotspur</td>
-    <td>Bayern Munchen</td>
-    <td>100 m</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Randal Kolo Muani</td>
-    <td>Eintracht Frankfurt</td>
-    <td>Paris Saint Germain</td>
-    <td>95 m</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Josko Gvardiol</td>
-    <td>Red Bull Leipzig</td>
-    <td>Manchester City</td>
-    <td>90 m</td>
-  </tr>
-   <tr>
-    <td></td>
-    <td>Neymar</td>
-    <td>Paris Saint Germain</td>
-    <td>Al Hilal</td>
-    <td>90 m</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Rasmus Højlund</td>
-    <td>Atalanta Bergamo</td>
-    <td>Manchester United</td>
-    <td>75 m</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Kai Havertz</td>
-    <td>Chelsea</td>
-    <td>Arsenal</td>
-    <td>75 m</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Dominik Szoboszlai</td>
-    <td>Red Bull Leipzig</td>
-    <td>Liverpool</td>
-    <td>70 m</td>
-  </tr>
-</table>
 </body>
 </html>
