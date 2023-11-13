@@ -78,8 +78,7 @@ body {
 <body style="background-color:white;">
 
 <div class="navbar">
-</style>
-
+<body>
 
 
 
@@ -91,7 +90,6 @@ body {
     overflow: hidden;
     margin-top: 0px;
 }
-
 </style>
   <div class="dropdown">
     <button class="dropbtn">Transfers 
@@ -142,9 +140,12 @@ table{
   background-color:#ffffff;
 }
 
-}
 </style>
 
-<div><?php $html = ""; $url = "https://www.soccerstats247.com/RankingsRssWidget.aspx?langId=1&leagueId=1323&groupName=";$xml = simplexml_load_file($url); foreach($xml->channel->item as $item){$html .= $item->description;$html .= "<hr />";}echo $html; ?></div>
+
+
+
+</style>
+<div><?php $html = ""; $url = "https://www.soccerstats247.com/MatchResultsRssWidget.aspx?langId=6&leagueId=1322";$xml = simplexml_load_file($url); foreach($xml->channel->item as $item){$html .= $item->description;$html .= "<hr />";}echo $html; ?></div>
 </body>
 </html>

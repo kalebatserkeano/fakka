@@ -41,10 +41,6 @@ body {
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: green;
 }
-.topnav-right {
-  float: right;
-}
-
 
 .dropdown-content {
   display: none;
@@ -63,6 +59,9 @@ body {
   display: block;
   text-align: left;
 }
+.topnav-right {
+float: right;
+}
 
 .dropdown-content a:hover {
   background-color: #ddd;
@@ -71,15 +70,13 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-
 </style>
 </head>
 <body style="background-color:white;">
 
 <div class="navbar">
-</style>
-
+</body>
+<body>
 
 
 
@@ -91,10 +88,10 @@ body {
     overflow: hidden;
     margin-top: 0px;
 }
-
 </style>
+</body>
   <div class="dropdown">
-    <button class="dropbtn">Transfers 
+    <button class="dropbtn">Transfers  
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
@@ -124,11 +121,11 @@ body {
       <a href="keukenkampioendivisieresultaten.php">Keukenkampioen Divisie</a>
       <a href="premierleaguestand.php">Premier League</a>
     </button>
-   </div>
     </div>
-     <div class="topnav-right">
+  </div>
+  <div class="topnav-right">
   <a href="voetbalwebsite.php">Home</a>
-  </div> 
+  </div>
 </div>
 <style>
  body{
@@ -142,9 +139,9 @@ table{
   background-color:#ffffff;
 }
 
-}
-</style>
 
-<div><?php $html = ""; $url = "https://www.soccerstats247.com/RankingsRssWidget.aspx?langId=1&leagueId=1323&groupName=";$xml = simplexml_load_file($url); foreach($xml->channel->item as $item){$html .= $item->description;$html .= "<hr />";}echo $html; ?></div>
+
+</style>
+<div><?php $html = ""; $url = "https://www.soccerstats247.com/RankingsRssWidget.aspx?langId=6&leagueId=1204&groupName=";$xml = simplexml_load_file($url); foreach($xml->channel->item as $item){$html .= $item->description;$html .= "<hr />";}echo $html; ?></div>
 </body>
 </html>
